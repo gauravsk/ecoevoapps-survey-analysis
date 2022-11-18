@@ -1,0 +1,1 @@
+This repo contains code for analyzing the classroom survey data in McGuire et al. 2022, 'EcoEvoApps: Interactive apps for teaching theoretical ecology and evolution', published in Ecology and Evolution.
