@@ -51,7 +51,7 @@ library(readxl)
 
 # Begin analysis of anonymized data
 missouri_data <-
-  read_xls("teaching-survey/data/Survey_data.xls", sheet = 1)
+  read_xls("Survey_data.xls", sheet = 1)
 
 # for Lotka-Volterra analysis ---------------------------------------------
 
@@ -410,7 +410,7 @@ for_si_interest_sum <-
 # Analysis of UCLA survey data ----------------
 
 # Read in the data and reshape it to be more useful
-ucla_post <- read_xls("teaching-survey/data/Survey_data.xls", sheet = 3)
+ucla_post <- read_xls("Survey_data.xls", sheet = 3)
 ucla_post_long <- ucla_post %>%
   pivot_longer(help_lv:conf_island_dyn)
 ucla_post_long <- ucla_post_long %>%
